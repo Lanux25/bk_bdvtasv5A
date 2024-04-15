@@ -14,10 +14,7 @@ SET standard_conforming_strings = on;
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
---
--- TOC entry 2197 (class 1262 OID 67071)
--- Name: bd_vtasv5; Type: DATABASE; Schema: -; Owner: postgres
---
+
 
 CREATE DATABASE bd_vtasv5 WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'English_United States.1252' LC_CTYPE = 'English_United States.1252';
 
