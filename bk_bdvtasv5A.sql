@@ -1,11 +1,3 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.5
-
--- Started on 2017-03-28 18:39:17
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -14,7 +6,6 @@ SET standard_conforming_strings = on;
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
-
 
 --
 -- TOC entry 1 (class 3079 OID 12355)
@@ -873,4 +864,3 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 --
 -- PostgreSQL database dump complete
 --
-
