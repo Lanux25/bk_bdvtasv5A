@@ -14,8 +14,6 @@ SET standard_conforming_strings = on;
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
-
-DROP DATABASE bd_vtasv5;
 --
 -- TOC entry 2197 (class 1262 OID 67071)
 -- Name: bd_vtasv5; Type: DATABASE; Schema: -; Owner: postgres
