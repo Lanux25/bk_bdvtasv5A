@@ -16,21 +16,6 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 
-CREATE DATABASE bd_vtasv5 WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'English_United States.1252' LC_CTYPE = 'English_United States.1252';
-
-
-ALTER DATABASE bd_vtasv5 OWNER TO postgres;
-
-\connect bd_vtasv5
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SET check_function_bodies = false;
-SET client_min_messages = warning;
-SET row_security = off;
-
 --
 -- TOC entry 1 (class 3079 OID 12355)
 -- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
